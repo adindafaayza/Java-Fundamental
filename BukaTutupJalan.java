@@ -19,10 +19,10 @@ public class BukaTutupJalan {
         long mobil = Long.parseLong(s);
         long hitung = mobil-999999;
         if(hitung%5==0){
-            System.out.println("Berhenti");
+            System.out.println("Jalan");
         }
         else{
-            System.out.println("Jalan");
+            System.out.println("Berhenti");
         }
     }
     
