@@ -8,18 +8,13 @@ import java.util.Scanner;
 
 public class InputOutput2 {
     public static void main(String[] args) {
-        
         Scanner in = new Scanner(System.in);
-        String s1 = in.next();
-        int n1 = in.nextInt();
-        String s2 = in.next();
-        int n2 = in.nextInt();
-        String s3 = in.next();
-        int n3 = in.nextInt();
         System.out.println("================================");
-        System.out.printf("%-15s%03d\n",s1,n1);
-        System.out.printf("%-15s%03d\n",s2,n2);
-        System.out.printf("%-15s%03d\n",s3,n3);
+        for (int i=0;i<3;i++){
+            String s = in.next();
+            int n = in.nextInt();
+            System.out.printf("%-15s%03d\n",s,n);
+        }
         System.out.println("================================");
     }
     
